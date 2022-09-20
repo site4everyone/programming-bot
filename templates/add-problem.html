@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload page!!!</title>
+    <style>
+      .container {
+        text-align: center;
+        margin: auto;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post">
+        {% csrf_token %} {{form.as_p}}
+        <button type="submit" value="">Upload</button>
+      </form>
+    </div>
+  </body>
+</html>
