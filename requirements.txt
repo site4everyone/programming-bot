@@ -6,3 +6,4 @@ sqlparse==0.4.2
 tzdata==2022.2
 whitenoise==6.2.0
 xlwt==1.3.0
+django-heroku==0.3.1
